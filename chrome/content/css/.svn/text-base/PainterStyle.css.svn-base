@@ -1,0 +1,18 @@
+/*div#hidden_page_overlay*/
+div.painter_canvas_with_overlay
+{
+    background: url("chrome://snapper/content/images/hidden_overlay.png");
+    top:        0;
+    left:       0;
+    position:   absolute;
+    z-index:    2000000;
+}
+
+div.painter_canvas_without_overlay
+{
+}
+
+img#snapped_image
+{
+	display: none;
+}

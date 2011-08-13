@@ -1,0 +1,15 @@
+extensions.{fab752b0-f83e-11da-974d-0800200c9a66}.description=Pillanatfelvétel készítése a weboldal egy kiválasztott részéről.
+SnapperIsActive=Rögzítés bekapcsolva
+SnapperIsInactive=Rögzítés kikapcsolva
+CancelSnapping=Rögzítés befejezése
+StartSnapping=Rögzítés indítása
+SaveAsTitle=Mentés másként...
+FatalError=Hiba! A Snapper inicializációja sikertelen.
+NotificationSnappingSuccess=A rögzítés sikeres
+NotificationCopied=Másolás végrehajtva
+NotificationSaved=Mentés végrehajtva
+NotificationCopiedAndSaved=Másolás és mentés végrehajtva
+NotificationFailed=Probléma merült fel. A kép rögzítése sikertelen. Próbálja újra.
+NotificationTitleSnappingComplete=A rögzítés befejeződött
+FrameIFrameTagText=Kattintson ide az iframe rögzítéséhez
+FramePageTagText=Kattintson ide a weboldal rögzítéséhez

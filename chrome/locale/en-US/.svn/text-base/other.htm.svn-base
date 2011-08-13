@@ -1,0 +1,47 @@
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head>
+    <title>Snapper Extension version @@snapper_version@@ - Help</title>
+    <link type="text/css" rel="Stylesheet" href="chrome://snapper/content/css/SnapperHelp.css" />
+</head>
+
+<body>
+    <div id="helpHeader">
+        Snapper Extension version @@snapper_version@@
+        <img id="helpHeaderSnapperLogo" class="snapperLogo" src="chrome://snapper/content/images/snapper_logo.png" alt="Snapper Extension Logo" />
+    </div>
+    
+    <div id="helpBodyblah">
+        <div id="sectionThanks">
+            <span class="sectionHeader">Special Thanks To</span><br />
+            My wife, <span class="contributor">Gretchen</span>, for finally getting me off my duff and updating this thing.  :-)<br />
+            The <span class="contributor">Firefox developers</span> for designing a great architecture on which these extensions can be built.<br />
+            All of Snapper's <span class="contributor">faithful users</span> - I hope Snapper proves to be very helpful to you!
+        </div>
+        
+        <hr />
+        
+        <div="sectionAuthor">
+            <span class="sectionHeader">About the Author</span><br />
+            I am a software developer living in Texas (just moved from the the San Francisco Bay Area).  In my spare time, I enjoy writing code
+            (hence, Snapper), playing my Xbox 360, and going on the occasional hike with my wife.<br />
+			<br />
+			Feel free to send me  feedback or general comments: <a href="mailto:lilshieste@gmail.com">lilshieste@gmail.com.</a>
+        </div>
+        
+        <hr />
+        
+        <div id="sectionDisclaimer">
+            <span class="sectionHeader">Disclaimer</span><br />
+            You might think that this extension has some features that closely resemble those
+            of a certain software package.  I think you're just imagining things.
+        </div>
+    </div>
+    
+    <div id="helpFooter">
+        Snapper version @@snapper_version@@ - @@snapper_name_author@@ @@snapper_date_release_en-us@@
+    </div>
+    
+</body>
+
+</html>

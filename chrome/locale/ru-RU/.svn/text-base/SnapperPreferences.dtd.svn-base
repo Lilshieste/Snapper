@@ -1,0 +1,22 @@
+<!ENTITY window.preferences.snapper "Настройки Snapper">
+<!ENTITY pane.preferences.general "Основное">
+<!ENTITY caption.preferences.tab.general "Основное">
+<!ENTITY caption.preferences.tab.images "Снимки">
+<!ENTITY caption.preferences.tab.notifications "Уведомления">
+<!ENTITY caption.preferences.snappingMode "Режим снимков:">
+<!ENTITY caption.preferences.snappingModeSimple "Простой режим - нажать, выделить, снять">
+<!ENTITY caption.preferences.snappingModeAnchored "Фиксированная область - можно перемещать и изменять снимаемую область">
+<!ENTITY caption.preferences.snappingModeFullPage "Вся страница - снимок всей страницы">
+<!ENTITY caption.preferences.snappingModeViewPane "Видимая область - снимок видимой области страницы">
+<!ENTITY caption.preferences.snappingModeFrame "Фрейм - снимок выбранного фрейма на странице">
+<!ENTITY caption.preferences.mode "Действия со снимками:">
+<!ENTITY caption.preferences.modeCopy "Копировать в буфер">
+<!ENTITY caption.preferences.modeSave "Сохранить в файл">
+<!ENTITY caption.preferences.modeCopySave "Копировать и Сохранить">
+<!ENTITY caption.preferences.saveLocation "Сохранять снимки автоматически">
+<!ENTITY caption.preferences.saveType "Формат файлов снимков:">
+<!ENTITY button.preferences.saveLocation.Browse "Обзор...">
+<!ENTITY caption.preferences.disableNotifications "Отключить уведомления">
+<!ENTITY description.preferences.notifications "После завершения обработки снимка, будет показано соответствующее уведомление.">
+<!ENTITY caption.preferences.disableNotificationsNote "Примечание: уведомления не могут быть отключены для режимов 'Вся страница' и 'Видимая область'.">
+<!ENTITY caption.preferences.editSnappedImage "Автоматический открывать снимок в системном редакторе изображений">

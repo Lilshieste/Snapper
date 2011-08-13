@@ -1,0 +1,8 @@
+description.notifications {
+	width: 275px;
+}
+
+.note {
+    font-weight:    bold;
+    width:          150px;
+}

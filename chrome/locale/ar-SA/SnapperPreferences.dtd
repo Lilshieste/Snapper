@@ -1,0 +1,22 @@
+<!ENTITY window.preferences.snapper "إعدادات Snapper">
+<!ENTITY pane.preferences.general "عام">
+<!ENTITY caption.preferences.tab.general "عام">
+<!ENTITY caption.preferences.tab.images "صور">
+<!ENTITY caption.preferences.tab.notifications "تنبيهات">
+<!ENTITY caption.preferences.snappingMode "وضع Snapping">
+<!ENTITY caption.preferences.snappingModeSimple "بسيط - نقر,سحب,لقط">
+<!ENTITY caption.preferences.snappingModeAnchored "الراسية - تحريك وتغيير حجم منطقة اللقط">
+<!ENTITY caption.preferences.snappingModeFullPage "صفحة كاملة - لقط كامل الصفحة">
+<!ENTITY caption.preferences.snappingModeViewPane "عرض جزء -- لقط الجزء من الصفحة المعروضة حاليا">
+<!ENTITY caption.preferences.snappingModeFrame "الإطار -- لقط محتويات إطار محدد في الصفحة">
+<!ENTITY caption.preferences.mode "وضع الصور">
+<!ENTITY caption.preferences.modeCopy "نسخ إلى الحافظة">
+<!ENTITY caption.preferences.modeSave "حفظ إلى ملف">
+<!ENTITY caption.preferences.modeCopySave "نسخ و حفظ">
+<!ENTITY caption.preferences.saveLocation "حفظ الصور الملتقطة آليا؟">
+<!ENTITY caption.preferences.saveType "صيغة الصورة المرادة:">
+<!ENTITY button.preferences.saveLocation.Browse "إستعراض...">
+<!ENTITY caption.preferences.disableNotifications "تعطيل التنبيه">
+<!ENTITY description.preferences.notifications "بعد الانتهاء من تجهيز الإلتقاط قد التقط صورة ، تنبيه من الإجراءات التي اتخذت على صورة التقطت يتم عرضها.">
+<!ENTITY caption.preferences.disableNotificationsNote "ملاحظة:لا يمكن إلفاء التنبيه للصفحة كاملة أو لعرض جزئي">
+<!ENTITY caption.preferences.editSnappedImage "إفتح الصور الملتقطة في المحرر المسجل آليا">

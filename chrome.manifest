@@ -1,0 +1,22 @@
+content     snapper                                 chrome/content/
+content     snapper                                 chrome/content/ contentaccessible=yes
+
+skin        snapper         SnapperSkin             chrome/skin/
+
+style       chrome://browser/content/browser.xul    chrome://snapper/skin/SnapperSkin.css
+
+locale      snapper         ar-SA                   chrome/locale/ar-SA/
+locale      snapper         da-DK                   chrome/locale/da-DK/
+locale      snapper         de-DE                   chrome/locale/de-DE/
+locale      snapper         en-US                   chrome/locale/en-US/
+locale      snapper         es-AR                   chrome/locale/es-AR/
+locale      snapper         es-ES                   chrome/locale/es-ES/
+locale      snapper         fr-FR                   chrome/locale/fr-FR/
+locale      snapper         nl-NL                   chrome/locale/nl-NL/
+locale      snapper         pt-BR                   chrome/locale/pt-BR/
+locale      snapper         ru-RU                   chrome/locale/ru-RU/
+locale      snapper         tr-TR                   chrome/locale/tr-TR/
+locale      snapper         zh-CN                   chrome/locale/zh-CN/
+
+overlay     chrome://browser/content/browser.xul            chrome://snapper/content/SnapperOverlay.xul
+style       chrome://global/content/customizeToolbar.xul	chrome://snapper/skin/SnapperSkin.css

@@ -1,0 +1,28 @@
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head>
+    <title>Snapper Erweiterung Version @@snapper_version@@ - Hilfe</title>
+    <link type="text/css" rel="Stylesheet" href="chrome://snapper/content/css/SnapperHelp.css" />
+</head>
+
+<body>
+    <div id="helpHeader">
+        Snapper Erweiterung Version @@snapper_version@@
+        <img id="helpHeaderSnapperLogo" class="snapperLogo" src="chrome://snapper/content/images/snapper_logo.png" alt="Snapper Erweiterung Logo" />
+    </div>
+    
+    <div id="helpSectionSummary">
+        <span class="sectionHeader">Infomationen über Snapper</span><br />
+        Snapper wurde entwickelt um Bilder von verschiedenen Bereiche von Webseiten zu speichern.
+        Damit ist ein Zuschneiden von Bildschirmfotos nur um nicht relevante Bereiche zu entfernen nicht mehr notwendig.
+    </div>
+    
+    <br />
+    
+    <div id="helpFooter">
+        Snapper Version @@snapper_version@@ - @@snapper_name_author@@ @@snapper_date_release_de-de@@
+    </div>
+    
+</body>
+
+</html>

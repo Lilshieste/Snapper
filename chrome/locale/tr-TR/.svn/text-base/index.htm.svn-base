@@ -1,0 +1,29 @@
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head>
+    <title>Snapper Eklentisi sürüm @@snapper_version@@ - Yardım</title>
+    <link type="text/css" rel="Stylesheet" href="chrome://snapper/content/css/SnapperHelp.css" />
+</head>
+
+<body>
+    <div id="helpHeader">
+        Snapper Eklentisi sürüm @@snapper_version@@
+        <img id="helpHeaderSnapperLogo" class="snapperLogo" src="chrome://snapper/content/images/snapper_logo.png" alt="Snapper Extension Logo" />
+    </div>
+    
+    <div id="helpContents">
+        <span class="sectionHeader">Yardım Konuları</span><br />
+        <div id="helpTopics">
+            <a href="summary.htm"><span class="helpTopic">Genel Bilgiler</span></a><br />
+            <a href="howto.htm"><span class="helpTopic">Nasıl Kullanılır</span></a><br />
+            <a href="other.htm"><span class="helpTopic">Diğer Bilgiler</span></a><br />
+        </div>
+    </div>
+    
+    <div id="helpFooter">
+        Snapper sürüm @@snapper_version@@ - @@snapper_name_author@@ @@snapper_date_release_tr-tr@@
+    </div>
+    
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+body
+{
+    margin-left:        10%;
+    margin-right:       10%;
+}
+
+#helpHeader
+{
+    font-size:          large;
+    font-weight:        bold;
+    text-decoration:    underline;
+    text-align:         center;
+    width:              80%;
+    margin-bottom:      10px;
+}
+
+#helpFooter
+{
+    margin-top:         5px;
+    font-size:          small;
+    font-style:         italic;
+    text-align:         center;
+    border-top-style:   solid;
+    border-top-width:   1px;
+    border-top-color:   #000000;
+    width:              80%;
+    bottom:             95%;
+}
+
+#helpContents   h1
+{
+    font-size:          medium;
+    font-variant:       small-caps;
+    text-decoration:    underline;
+}
+
+#helpTopics
+{
+    border-style:       solid;
+    border-width:       1px;
+    border-color:       #000000;
+    padding-top:        5px;
+    padding-bottom:     5px;
+    padding-left:       5px;
+    padding-right:      5px;
+    width:              30%;
+}
+
+
+span.sectionHeader
+{
+    font-size:          medium;
+    font-variant:       small-caps;
+}
+
+#helpNote
+{
+    border-style:       solid;
+    border-width:       2px;
+    border-color:       #000000;
+    background-color:   #ffb9b7;
+    width:              60%;
+    margin-left:        20%;
+    padding-top:        2px;
+    padding-bottom:     2px;
+    padding-left:       2px;
+    padding-right:      2px;
+    
+    
+}
+
+span.contributor
+{
+    color:              #ce0000;
+    font-weight:        bold;
+}

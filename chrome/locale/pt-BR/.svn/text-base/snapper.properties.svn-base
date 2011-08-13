@@ -1,0 +1,15 @@
+extensions.{fab752b0-f83e-11da-974d-0800200c9a66}.description=Permite capturar uma imagem de uma área designada em uma página web.
+SnapperIsActive=Snapper está ativo
+SnapperIsInactive=Snapper está inibido
+CancelSnapping=Cancelar captura
+StartSnapping=Iniciar captura
+SaveAsTitle=Salvar como...
+FatalError=Snapper encontrou um erro fatal durante a inicialização.
+NotificationSnappingSuccess=Capturou com suceso
+NotificationCopied=Copiado para a área de transferência
+NotificationSaved=Salvo no arquivo
+NotificationCopiedAndSaved=Copiado para a área de transferência e salvo no arquivo
+NotificationFailed=Snapper encontrou um problema e não conseguiu capturar uma imagem. Favor tentar novamente.
+NotificationTitleSnappingComplete=Captura concluída
+FrameIFrameTagText=Clique aqui para capturar iframe
+FramePageTagText=Clique aqui para capturar página

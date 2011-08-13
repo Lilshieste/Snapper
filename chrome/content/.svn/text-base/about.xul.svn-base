@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://snapper/locale/about.dtd" >
+
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        class="dialog"
+        title="&window.about.snapper;"
+        orient="vertical"
+        autostretch="always"
+        onload="sizeToContent();">
+
+    <groupbox align="center" orient="horizontal">
+        <vbox>
+            <text value="&text.snapper;" style="font-weight: bold; font-size: large;" />
+            <text value="&text.version;" style="font-style: italic;" />
+            <separator class="thin" />
+            <text value="&text.author;" />
+            <text value="&text.release.date;" />
+            <separator class="thick" />
+            <text value="lilshieste@gmail.com" class="url" onclick="window.open(&quot;mailto:lilshieste@gmail.com&quot;);" />
+        </vbox>
+        <spacer flex="1" />
+        <image src="chrome://snapper/content/images/snapper_logo.png"/>
+    </groupbox>
+
+    <hbox>
+        <spacer flex="1" />
+        <button label="&button.close;" oncommand="window.close();"/>
+    </hbox>
+
+</window>

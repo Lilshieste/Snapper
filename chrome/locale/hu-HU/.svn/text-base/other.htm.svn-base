@@ -1,0 +1,39 @@
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head>
+    <title>Snapper Extension version @@snapper_version@@ - Help</title>
+    <link type="text/css" rel="Stylesheet" href="chrome://snapper/content/css/SnapperHelp.css" />
+</head>
+
+<body><div id="helpHeader">A Snapper kiterjeszt&eacute;s v&aacute;ltozata: @@snapper_version@@<img id="helpHeaderSnapperLogo" class="snapperLogo" src="chrome://snapper/content/images/snapper_logo.png" alt="Snapper Extension Logo" />
+    </div>
+    
+<div id="helpBodyblah">
+        <div id="sectionThanks">
+            <span class="sectionHeader">K&uuml;l&ouml;n k&ouml;sz&ouml;net</span><br />
+        Feles&eacute;gemnek,  <span class="contributor">Firefox fejleszt&#337;knek, minden </span> Snapper felhaszn&aacute;l&oacute;nak<br/>
+        Rem&eacute;lem a Snapper kiterjeszt&eacute;s nagy seg&iacute;ts&eacute;g&eacute;re lesz &Ouml;nnek!        </div>
+        
+        <hr />
+        
+        
+            <span class="sectionHeader">A fejleszt&#337;r&#337;l</span><br />
+            Szoftverfejleszt&#337; vagyok,  Texasban &eacute;lek (San Franciscob&oacute;l k&ouml;lt&ouml;ztem &aacute;t nemr&eacute;gen).<br/>Szabadid&#337;mben k&oacute;d&iacute;r&aacute;ssal foglalkozom
+            (pl. Snapper), Xbox 360 j&aacute;t&eacute;kkonzolommal j&aacute;tszom.<br />
+			<br />
+			Visszajelz&eacute;seket &eacute;s &aacute;ltal&aacute;nos megjegyz&eacute;seket az al&aacute;bbi c&iacute;mre v&aacute;rok: <a href="mailto:lilshieste@gmail.com">lilshieste@gmail.com.</a>
+        </div>
+        
+        <hr />
+        
+        <div id="sectionDisclaimer">
+          <span class="sectionHeader">C&aacute;folat</span><br />
+            Gondolhatja azt, hogy a kiterjeszt&eacute;s olyan tulajdons&aacute;gokat is tartalmazhat, amelyek m&aacute;s softvercsomagban tal&aacute;lhat&oacute;akra nagyon hasonl&iacute;t.<br/>
+            Azt gondolom ezzel kapcsolatban, hogy csak k&eacute;pzel&#337;dik.        </div>
+</div>
+    
+    <div id="helpFooter">Snapper  @@snapper_version@@ v&aacute;ltozat - @@snapper_name_author@@, @@snapper_date_release_hu-hu@@</div>
+    
+</body>
+
+</html>

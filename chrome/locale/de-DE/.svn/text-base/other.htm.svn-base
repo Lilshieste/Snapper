@@ -1,0 +1,47 @@
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head>
+    <title>Snapper Erweiterung Version @@snapper_version@@ - Hilfe</title>
+    <link type="text/css" rel="Stylesheet" href="chrome://snapper/content/css/SnapperHelp.css" />
+</head>
+
+<body>
+    <div id="helpHeader">
+        Snapper Erweiterung Version @@snapper_version@@
+        <img id="helpHeaderSnapperLogo" class="snapperLogo" src="chrome://snapper/content/images/snapper_logo.png" alt="Snapper Erweiterung Logo" />
+    </div>
+    
+    <div id="helpBodyblah">
+        <div id="sectionThanks">
+            <span class="sectionHeader">Besonderen Dank an</span><br />
+            Meine Frau, <span class="contributor">Gretchen</span>, für die Leistung mich aufzurütteln und diese Erweiterung zu aktualisieren.  :-)<br />
+            Die <span class="contributor">Firefox Entwickler</span> für das Erstellen einer großartigen Architektur mit denen solche Erweiterungen programmiert werden können.<br />
+            Alle <span class="contributor">treuen Snapper Benutzer</span> - Ich hoffe Snapper ist sehr hilfreich für euch!
+        </div>
+        
+        <hr />
+        
+        <div="sectionAuthor">
+            <span class="sectionHeader">Über den Autor</span><br />
+            Ich bin ein Software Entwickler, der im Moment im Bereich der San Francisco Bay arbeitet. In meiner übrigen Zeit, geniesse ich es Code zu schreiben
+            (hence, Snapper), mit meiner Xbox 360 zu spielen und gelegentlich mit meiner Frau zu wandern.<br />
+			<br />
+			Fühlen Sie sich frei mir Feedback oder allgemeine Bemerkungen zu senden: <a href="mailto:lilshieste@gmail.com">lilshieste@gmail.com.</a>
+        </div>
+        
+        <hr />
+        
+        <div id="sectionDisclaimer">
+            <span class="sectionHeader">Disclaimer</span><br />
+            Sie könnten denken, dass diese Erweiterung manche ähnliche Funktionen wie ein bestimmtes Softwarepaket hat.
+            Ich glaube Sie bilden sich das nur ein.
+        </div>
+    </div>
+    
+    <div id="helpFooter">
+        Snapper Version @@snapper_version@@ - @@snapper_name_author@@ @@snapper_date_release_de-de@@
+    </div>
+    
+</body>
+
+</html>

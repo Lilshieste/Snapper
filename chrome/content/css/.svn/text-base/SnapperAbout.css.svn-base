@@ -1,0 +1,11 @@
+h1
+{
+    font-size:          medium;
+    font-variant:       small-caps;
+    text-decoration:    underline;
+}
+
+span.contributor
+{
+    color:  #ce0000;
+}

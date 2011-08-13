@@ -1,0 +1,22 @@
+<!ENTITY window.preferences.snapper "Snapper - Preferencias">
+<!ENTITY pane.preferences.general "General">
+<!ENTITY caption.preferences.tab.general "General">
+<!ENTITY caption.preferences.tab.images "Imágenes">
+<!ENTITY caption.preferences.tab.notifications "Notifications">
+<!ENTITY caption.preferences.snappingMode "Modo Snapping">
+<!ENTITY caption.preferences.snappingModeSimple "Simple - Click, arrastre, snap!">
+<!ENTITY caption.preferences.snappingModeAnchored "Anclado - Mover y reajustar area de captura">
+<!ENTITY caption.preferences.snappingModeFullPage "Full Page - Snap the entire page">
+<!ENTITY caption.preferences.snappingModeViewPane "View Pane - Snap the portion of the page that is currently visible">
+<!ENTITY caption.preferences.snappingModeFrame "Frame - Snap the contents of a specific frame in the page">
+<!ENTITY caption.preferences.mode "Modo Imagen">
+<!ENTITY caption.preferences.modeCopy "Copiar al Portapapeles">
+<!ENTITY caption.preferences.modeSave "Guardar a archivo">
+<!ENTITY caption.preferences.modeCopySave "Copiar &amp; Guardar">
+<!ENTITY caption.preferences.saveLocation "¿Guardar automáticamente imágenes instantáneas?">
+<!ENTITY caption.preferences.saveType "Preferred image format:">
+<!ENTITY button.preferences.saveLocation.Browse "Explorar...">
+<!ENTITY caption.preferences.disableNotifications "Disable notifications">
+<!ENTITY description.preferences.notifications "After Snapper has finished processing a snapped image, a notification of the actions taken on the snapped image is displayed.">
+<!ENTITY caption.preferences.disableNotificationsNote "Note: Notifications cannot be disabled for Full Page or View Pane snapping.">
+<!ENTITY caption.preferences.editSnappedImage "Automatically open snapped images in registered editor">

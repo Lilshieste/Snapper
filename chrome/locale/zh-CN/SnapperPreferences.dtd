@@ -1,0 +1,22 @@
+<!ENTITY window.preferences.snapper "Snapper 配置">
+<!ENTITY pane.preferences.general "常规">
+<!ENTITY caption.preferences.tab.general "常规">
+<!ENTITY caption.preferences.tab.images "图像">
+<!ENTITY caption.preferences.tab.notifications "通知">
+<!ENTITY caption.preferences.snappingMode "捕捉模式">
+<!ENTITY caption.preferences.snappingModeSimple "简单 - 点击，拖动，拍">
+<!ENTITY caption.preferences.snappingModeAnchored "固定 - 移动和调整捕捉区域">
+<!ENTITY caption.preferences.snappingModeFullPage "完整页面 - 捕捉整个页面">
+<!ENTITY caption.preferences.snappingModeViewPane "显示窗格 - 捕捉当前页面的当前可见的内容">
+<!ENTITY caption.preferences.snappingModeFrame "框架 - 捕捉一个特定框架的页面内容">
+<!ENTITY caption.preferences.mode "图像模式">
+<!ENTITY caption.preferences.modeCopy "复制到剪贴板">
+<!ENTITY caption.preferences.modeSave "保存到文件">
+<!ENTITY caption.preferences.modeCopySave "复制 &amp; 保存">
+<!ENTITY caption.preferences.saveLocation "自动保存捕捉到的图像？">
+<!ENTITY caption.preferences.saveType "首选图像格式：">
+<!ENTITY button.preferences.saveLocation.Browse "浏览...">
+<!ENTITY caption.preferences.disableNotifications "禁用通知">
+<!ENTITY description.preferences.notifications "在 Snapper 已完成处理一个捕捉到的图像，通过通知显示对捕捉到的图像采取的操作。">
+<!ENTITY caption.preferences.disableNotificationsNote "注意：通知在完整页面或显示窗格捕捉时会禁用。">
+<!ENTITY caption.preferences.editSnappedImage "在注册编辑器自动打开捕捉到的图像">

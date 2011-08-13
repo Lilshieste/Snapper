@@ -1,0 +1,22 @@
+<!ENTITY window.preferences.snapper "Snapper Præferencer">
+<!ENTITY pane.preferences.general "Generelt">
+<!ENTITY caption.preferences.tab.general "Generelt">
+<!ENTITY caption.preferences.tab.images "Billeder">
+<!ENTITY caption.preferences.tab.notifications "Beskeder">
+<!ENTITY caption.preferences.snappingMode "Snapping-modus">
+<!ENTITY caption.preferences.snappingModeSimple "Enkel - klik, træk, snap">
+<!ENTITY caption.preferences.snappingModeAnchored "Forankret - Flyt og ændr størrelse på snapping-område">
+<!ENTITY caption.preferences.snappingModeFullPage "Hel side - Snap hele siden">
+<!ENTITY caption.preferences.snappingModeViewPane "Visningsrude - Snap kun den synlige del af siden">
+<!ENTITY caption.preferences.snappingModeFrame "Ramme - Snap indholdet af en specifik ramme på siden">
+<!ENTITY caption.preferences.mode "Billedmodus">
+<!ENTITY caption.preferences.modeCopy "Kopier til udklipsholder">
+<!ENTITY caption.preferences.modeSave "Gem som fil">
+<!ENTITY caption.preferences.modeCopySave "Kopier &amp; gem">
+<!ENTITY caption.preferences.saveLocation "Gem automatisk snappede billeder?">
+<!ENTITY caption.preferences.saveType "Foretrukket billedformat:">
+<!ENTITY button.preferences.saveLocation.Browse "Gennemse...">
+<!ENTITY caption.preferences.disableNotifications "Deaktiver beskeder">
+<!ENTITY description.preferences.notifications "Når Snapper er færdig med at behandle et billede, vises en besked om handlingen, der er udført på billedet.">
+<!ENTITY caption.preferences.disableNotificationsNote "Bemærk: Beskeder kan ikke deaktiveres for snapping af Hel side eller Visningsrude">
+<!ENTITY caption.preferences.editSnappedImage "Åbn automatisk snappede billeder i registreret editor">

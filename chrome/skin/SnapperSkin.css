@@ -1,0 +1,21 @@
+.snapperActivatedIcon
+{
+    background:     url( "chrome://snapper/skin/snapper_icon.gif ") no-repeat;
+    border-width:   0px;
+}
+
+.snapperToolbarButtonActivated {
+  list-style-image: url( "chrome://snapper/skin/snapper_activated_24_24.png" );
+}
+
+.snapperToolbarButtonDeactivated {
+  list-style-image: url( "chrome://snapper/skin/snapper_deactivated_24_24.png" );
+}
+
+toolbar[iconsize="small"] .snapperToolbarButtonActivated {
+  list-style-image: url( "chrome://snapper/skin/snapper_activated_16_16.png" );
+}
+
+toolbar[iconsize="small"] .snapperToolbarButtonDeactivated {
+  list-style-image: url( "chrome://snapper/skin/snapper_deactivated_16_16.png" );
+}

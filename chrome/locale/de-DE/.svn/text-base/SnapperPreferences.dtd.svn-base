@@ -1,0 +1,22 @@
+<!ENTITY window.preferences.snapper "Snapper Einstellungen">
+<!ENTITY pane.preferences.general "Allgemein">
+<!ENTITY caption.preferences.tab.general "Allgemein">
+<!ENTITY caption.preferences.tab.images "Bilder">
+<!ENTITY caption.preferences.tab.notifications "Benachrichtigungen">
+<!ENTITY caption.preferences.snappingMode "Bedienungseinstellungen">
+<!ENTITY caption.preferences.snappingModeSimple "Einfach - Klicken, ziehen, fotografieren">
+<!ENTITY caption.preferences.snappingModeAnchored "Verankert - Bewegen und Verändern des ausgewählten Bereichs">
+<!ENTITY caption.preferences.snappingModeFullPage "Komplette Seite - gesamte Seite abfotografieren">
+<!ENTITY caption.preferences.snappingModeViewPane "Sichtbarer Ausschnitt - Nur den sichtbaren Bereich abfotografieren">
+<!ENTITY caption.preferences.snappingModeFrame "Frame - Erstellt einen Screenshot eines bestimmten Frame auf der Seite">
+<!ENTITY caption.preferences.mode "Bildeinstellungen">
+<!ENTITY caption.preferences.modeCopy "In Zwischenablage kopieren">
+<!ENTITY caption.preferences.modeSave "In Datei speichern">
+<!ENTITY caption.preferences.modeCopySave "Kopieren &amp; Speichern">
+<!ENTITY caption.preferences.saveLocation "Automatisches Speichern von erstellten Bildern?">
+<!ENTITY caption.preferences.saveType "Bevorzugtes Bildformat">
+<!ENTITY button.preferences.saveLocation.Browse "Durchsuchen...">
+<!ENTITY caption.preferences.disableNotifications "Deaktivieren von Benachrichtigungen">
+<!ENTITY description.preferences.notifications "Nachdem Snapper ein Bildschirmfoto erstellt hat, erscheint eine Benachrichtigung ob das Bild erfolgreich erstellt und gespeichert wurde.">
+<!ENTITY caption.preferences.disableNotificationsNote "Hinweis: Benachrichtigungen können nicht für 'Komplette Seite' oder 'Sichbarer Ausschnitt' deaktiviert werden.">
+<!ENTITY caption.preferences.editSnappedImage "Erstellte Bilder automatisch in Standardeditor öffnen">

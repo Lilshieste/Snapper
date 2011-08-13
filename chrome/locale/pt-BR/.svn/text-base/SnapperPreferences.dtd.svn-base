@@ -1,0 +1,22 @@
+<!ENTITY window.preferences.snapper "Preferências do Snapper">
+<!ENTITY pane.preferences.general "Geral">
+<!ENTITY caption.preferences.tab.general "Geral">
+<!ENTITY caption.preferences.tab.images "Imagens">
+<!ENTITY caption.preferences.tab.notifications "Notificações">
+<!ENTITY caption.preferences.snappingMode "Modo de captura">
+<!ENTITY caption.preferences.snappingModeSimple "Simples - Clica, arrasta, captura">
+<!ENTITY caption.preferences.snappingModeAnchored "Ancorado - Move e redimensiona a área de captura">
+<!ENTITY caption.preferences.snappingModeFullPage "Página completa - Captura a página inteira">
+<!ENTITY caption.preferences.snappingModeViewPane "Área de visualização - Captura a porção da página que está visível no momento">
+<!ENTITY caption.preferences.snappingModeFrame "Frame - Captura o conteúdo de um frame específico da página">
+<!ENTITY caption.preferences.mode "Modo de imagem">
+<!ENTITY caption.preferences.modeCopy "Copiar para área de transferência">
+<!ENTITY caption.preferences.modeSave "Salvar em arquivo">
+<!ENTITY caption.preferences.modeCopySave "Copiar &amp; salvar">
+<!ENTITY caption.preferences.saveLocation "Salvar automaticamente imagens capturadas?">
+<!ENTITY caption.preferences.saveType "Formato de imagem preferido:">
+<!ENTITY button.preferences.saveLocation.Browse "Procurar...">
+<!ENTITY caption.preferences.disableNotifications "Inibir notificações">
+<!ENTITY description.preferences.notifications "Após o Snapper concluir o processamento de uma imagem capturada, é exibida uma notificação das ações tomadas sobre a imagem capturada.">
+<!ENTITY caption.preferences.disableNotificationsNote "Nota: Notificações não podem ser desativadas para captura de Página completa ou Área de visualização.">
+<!ENTITY caption.preferences.editSnappedImage "Abrir automaticamente as imagens capturadas no editor registrado">

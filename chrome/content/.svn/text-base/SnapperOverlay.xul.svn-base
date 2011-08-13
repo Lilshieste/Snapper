@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="chrome://snapper/skin/SnapperSkin.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://snapper/locale/SnapperOverlay.dtd" >
+
+<overlay id="snapperOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <!-- Scripts -->
+    <script type="application/x-javascript" src="js/namespace/LSDevNamespace.js"></script>
+    <script type="application/x-javascript" src="js/namespace/SnapperNamespace.js"></script>
+    <script type="application/x-javascript" src="js/common/Point.js"></script>
+    <script type="application/x-javascript" src="js/common/FileTarget.js"></script>
+    <script type="application/x-javascript" src="js/common/Result.js"></script>
+    <script type="application/x-javascript" src="js/notifications/NotificationBase.js"></script>
+    <script type="application/x-javascript" src="js/notifications/NotificationMoz.js"></script>
+    <script type="application/x-javascript" src="js/preferences/SnapperPreferencesConstants.js"></script>
+    <script type="application/x-javascript" src="js/preferences/SnapperPreferencesBase.js"></script>
+    <script type="application/x-javascript" src="js/preferences/SnapperPreferencesMoz.js"></script>
+    <script type="application/x-javascript" src="js/util/SnapperUtilities.js"></script>
+    <script type="application/x-javascript" src="js/util/HtmlUtilities.js"></script>
+    <script type="application/x-javascript" src="js/callback/CallbackObject.js"></script>
+    <script type="application/x-javascript" src="js/callback/GenericCallbackObject.js"></script>
+    <script type="application/x-javascript" src="js/callback/Event.js"></script>
+    <script type="application/x-javascript" src="js/callback/EventArgs.js"></script>
+    <script type="application/x-javascript" src="js/callback/MoveEventArgs.js"></script>
+    <script type="application/x-javascript" src="js/callback/GenericEvent.js"></script>
+    <script type="application/x-javascript" src="js/callback/ParamEvent.js"></script>
+    <script type="application/x-javascript" src="js/shapes/Shape.js"></script>
+    <script type="application/x-javascript" src="js/shapes/Polygon.js"></script>
+    <script type="application/x-javascript" src="js/shapes/Rectangle.js"></script>
+    <script type="application/x-javascript" src="js/widgets/Widget.js"></script>
+    <script type="application/x-javascript" src="js/widgets/HtmlWidget.js"></script>
+    <script type="application/x-javascript" src="js/widgets/HtmlRectangleWidget.js"></script>
+    <script type="application/x-javascript" src="js/widgets/TextModifyEventArgs.js"></script>
+    <script type="application/x-javascript" src="js/widgets/HtmlLabelWidget.js"></script>
+    <script type="application/x-javascript" src="js/widgets/HtmlTagWidget.js"></script>
+    <script type="application/x-javascript" src="js/widgets/HtmlDimensionsDisplayWidget.js"></script>
+    <script type="application/x-javascript" src="js/widgets/HtmlImageCanvasWidget.js"></script>
+    <script type="application/x-javascript" src="js/selectors/Selector.js"></script>
+    <script type="application/x-javascript" src="js/selectors/SimpleSelector.js"></script>
+    <script type="application/x-javascript" src="js/selectors/AnchoredSelector.js"></script>
+    <script type="application/x-javascript" src="js/selectors/DirectSpecifySelector.js"></script>
+    <script type="application/x-javascript" src="js/selectors/FullPageSelector.js"></script>
+    <script type="application/x-javascript" src="js/selectors/ViewPaneSelector.js"></script>
+    <script type="application/x-javascript" src="js/selectors/FrameSelector.js"></script>
+    <script type="application/x-javascript" src="js/imageSnapping/SnappedImageType.js"></script>
+    <script type="application/x-javascript" src="js/imageSnapping/SnappedImage.js"></script>
+    <script type="application/x-javascript" src="js/imageSnapping/ImageSnapper.js"></script>
+    <script type="application/x-javascript" src="js/imageSnapping/CanvasSnappedImage.js"></script>
+    <script type="application/x-javascript" src="js/imageSnapping/CanvasImageSnapper.js"></script>
+    <script type="application/x-javascript" src="js/imageProcessing/SnappedImageCopier.js"></script>
+    <script type="application/x-javascript" src="js/imageProcessing/HtmlSnappedImageCopier.js"></script>
+    <script type="application/x-javascript" src="js/selectionProcessing/SelectionProcessor.js"></script>
+    <script type="application/x-javascript" src="js/selectionProcessing/SnapperSelectionProcessor.js"></script>
+    <script type="application/x-javascript" src="js/Snapper.js"></script>
+    <script type="application/x-javascript" src="js/SnapperExtension.js"></script>
+
+    <stringbundleset id="stringbundleset">
+        <stringbundle id="snapper-strings" src="chrome://snapper/locale/snapper.properties"/>
+    </stringbundleset>
+
+    <!-- Panels -->
+    <statusbar id="status-bar">
+        <statusbarpanel id="snapperPanel">
+            <box id="snapperStatusIcon" class="snapperActivatedIcon" width="26" height="15" onclick="if( event.button == 0 ) LSDev.Extensions.SnapperNS.SnapperHelper.toggleSnapper();" context="snapperStatusIconPopup" />
+            <popup id="snapperStatusIconPopup" position="before_end">
+                <menuitem id="snapperStatusIconPopupToggle" label="&menuitem.start.snapping;" oncommand="LSDev.Extensions.SnapperNS.SnapperHelper.toggleSnapper();" />
+                <menu id="snapperStatusIconPopupQuickSnapMenu" label="Quick Snapper">
+                    <menupopup id="snapperStatusIconPopupQuickSnapMenuPopup">
+                        <menuitem id="snapperStatusIconPopupQuickSnapMenuSimple" label="Simple" oncommand="LSDev.Extensions.SnapperNS.SnapperInstance.doActivate( 1 );" />
+                        <menuitem id="snapperStatusIconPopupQuickSnapMenuAnchored" label="Anchored" oncommand="LSDev.Extensions.SnapperNS.SnapperInstance.doActivate( 2 );" />
+                        <menuitem id="snapperStatusIconPopupQuickSnapMenuFullPage" label="Full Page" oncommand="LSDev.Extensions.SnapperNS.SnapperInstance.doActivate( 3 );" />
+                        <menuitem id="snapperStatusIconPopupQuickSnapMenuViewPane" label="View Pane" oncommand="LSDev.Extensions.SnapperNS.SnapperInstance.doActivate( 4 );" />
+                        <menuitem id="snapperStatusIconPopupQuickSnapMenuFrame" label="Frame" oncommand="LSDev.Extensions.SnapperNS.SnapperInstance.doActivate( 5 );" />
+                    </menupopup>
+                </menu>
+                <menuseparator />
+                <menuitem id="snapperStatusIconPopupOptions" label="&menuitem.options;" oncommand="window.openDialog( &quot;chrome://snapper/content/SnapperPreferences.xul&quot;, &quot;OptionsWindow&quot;, &quot;modal&quot; );" />
+                <menuseparator />
+                <menuitem id="snapperStatusIconPopupHelp" label="&menuitem.help;" oncommand="window.open(&quot;chrome://snapper/locale/index.htm&quot;)" />
+                <menuitem id="snapperStatusIconPopupAbout" label="&menuitem.about.snapper;" oncommand="window.openDialog( &quot;chrome://snapper/content/about.xul&quot;, &quot;AboutWindow&quot;, &quot;modal&quot; );" />
+            </popup>
+        </statusbarpanel>
+    </statusbar>
+
+    <!-- Context Menus -->
+    <popup id="contentAreaContextMenu">
+        <menuseparator />
+        <menuitem id="snapperContextMenuItem" label="&menuitem.start.snapping;" oncommand="LSDev.Extensions.SnapperNS.SnapperHelper.toggleSnapper();" />
+        <menu id="snapperContextMenuQuickSnapMenu" label="Quick Snapper">
+            <menupopup id="snapperContextMenuQuickSnapMenuPopup">
+                <menuitem id="snapperContextMenuQuickSnapMenuSimple" label="Simple" oncommand="LSDev.Extensions.SnapperNS.SnapperInstance.doActivate( 1 );" />
+                <menuitem id="snapperContextMenuQuickSnapMenuAnchored" label="Anchored" oncommand="LSDev.Extensions.SnapperNS.SnapperInstance.doActivate( 2 );" />
+                <menuitem id="snapperContextMenuQuickSnapMenuFullPage" label="Full Page" oncommand="LSDev.Extensions.SnapperNS.SnapperInstance.doActivate( 3 );" />
+                <menuitem id="snapperContextMenuQuickSnapMenuViewPane" label="View Pane" oncommand="LSDev.Extensions.SnapperNS.SnapperInstance.doActivate( 4 );" />
+                <menuitem id="snapperContextMenuQuickSnapMenuFrame" label="Frame" oncommand="LSDev.Extensions.SnapperNS.SnapperInstance.doActivate( 5 );" />
+            </menupopup>
+        </menu>
+    </popup>
+    
+    <toolbarpalette id="BrowserToolbarPalette">
+            <menupopup id="snapperToolbarButtonQuickSnapMenuPopup">
+                <menuitem id="snapperToolbarButtonQuickSnapMenuSimple" label="Simple" oncommand="LSDev.Extensions.SnapperNS.SnapperInstance.doActivate( 1 );" />
+                <menuitem id="snapperToolbarButtonQuickSnapMenuAnchored" label="Anchored" oncommand="LSDev.Extensions.SnapperNS.SnapperInstance.doActivate( 2 );" />
+                <menuitem id="snapperToolbarButtonQuickSnapMenuFullPage" label="Full Page" oncommand="LSDev.Extensions.SnapperNS.SnapperInstance.doActivate( 3 );" />
+                <menuitem id="snapperToolbarButtonQuickSnapMenuViewPane" label="View Pane" oncommand="LSDev.Extensions.SnapperNS.SnapperInstance.doActivate( 4 );" />
+                <menuitem id="snapperToolbarButtonQuickSnapMenuFrame" label="Frame" oncommand="LSDev.Extensions.SnapperNS.SnapperInstance.doActivate( 5 );" />
+            </menupopup>
+            <toolbarbutton id="snapperToolbarButton" context="snapperToolbarButtonQuickSnapMenuPopup" class="snapperToolbarButtonDeactivated toolbarbutton-1" label="Snapper" tooltiptext="Snapper" type="checkbox" orient="vertical" oncommand="LSDev.Extensions.SnapperNS.SnapperHelper.toggleSnapper();" />
+    </toolbarpalette>
+</overlay>

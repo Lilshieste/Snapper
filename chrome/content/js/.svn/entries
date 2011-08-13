@@ -1,0 +1,132 @@
+10
+
+dir
+143
+svn://joe@192.168.1.161/dev/Extensions/Mozilla/Firefox/Snapper/chrome/content/js
+svn://joe@192.168.1.161
+
+
+
+2009-10-14T22:37:31.800310Z
+143
+Joe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2b483b89-ab11-da4c-a6de-f861701736a3
+
+imageProcessing
+dir
+
+SnapperExtension.js
+file
+
+
+
+
+2010-01-21T04:36:08.000000Z
+8195e7ea35be59974769b4d22a65eff3
+2009-10-14T22:37:31.800310Z
+143
+Joe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6459
+
+preferences
+dir
+
+imageSnapping
+dir
+
+selectionProcessing
+dir
+
+selectors
+dir
+
+shapes
+dir
+
+Snapper.js
+file
+
+
+
+
+2010-01-21T04:36:08.000000Z
+782b2605407bb27455414a06efcf7208
+2009-10-14T22:37:31.800310Z
+143
+Joe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12456
+
+widgets
+dir
+
+common
+dir
+
+notifications
+dir
+
+callback
+dir
+
+namespace
+dir
+
+util
+dir
+

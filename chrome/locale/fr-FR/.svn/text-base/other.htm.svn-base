@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr-fr">
+<head>
+  <title>Snapper Extension version
+@@snapper_version@@ - Help</title>
+  <link type="text/css" rel="Stylesheet"
+ href="chrome://snapper/content/css/SnapperHelp.css">
+</head>
+<body>
+<div id="helpHeader">
+Extension Snapper&nbsp; version @@snapper_version@@ <img id="helpHeaderSnapperLogo"
+ class="snapperLogo"
+ src="chrome://snapper/content/images/snapper_logo.png"
+ alt="Snapper Extension Logo"> </div>
+<div id="helpBodyblah">
+<div id="sectionThanks"> <span class="sectionHeader">Remerciements
+particuliers &agrave; :</span><br>
+<span class="contributor">Miron
+Costant</span> pour m'avoir
+donn&eacute; d'excellents conseils et un retour
+d'exp&eacute;rience sur
+l'extension. Il m'a aussi donn&eacute; de brillantes
+id&eacute;es pour
+les versions &agrave; venir.<br>
+Mon &eacute;pouse, <span class="contributor">Gretchen</span>,
+pour
+avoir support&eacute; mon comportement obsessionnel avec cette
+extension. "Attends encore une minute..."<br>
+Les d&eacute;veloppeurs de&nbsp;<span class="contributor">Firefox</span>
+pour
+avoir con&ccedil;u cette superbe architecture sur laquelle peuvent
+se
+greffer les extensions.<br>
+</div>
+<hr>
+<div ="sectionAuthor"> <span class="sectionHeader">&Agrave; propos de
+l'auteur</span><br>
+Je suis un d&eacute;veloppeur de logiciels qui travaille
+actuellement
+&agrave; San Francisco. C'est ma premi&egrave;re extension
+pour&nbsp;Firefox et j'esp&egrave;re qu'elle sera bien
+accueillie.
+N'h&eacute;sitez pas &agrave; me faire part de vos remarques
+particuli&egrave;res et commentaires g&eacute;n&eacute;raux
+: <a href="mailto:lilshieste.extensions@gmail.com">lilshieste.extensions@gmail.com.</a>
+</div>
+<hr>
+<div id="sectionDisclaimer"><span class="sectionHeader">Avertissement</span><br>
+Il peut vous venir en t&ecirc;te que cette extension comporte des
+fonctionnalit&eacute;s qui ressemblent fort &agrave; celles
+d'un
+certain logiciel. Je pense que c'est dans votre imagination. </div>
+</div>
+<div id="helpFooter">
+Snapper version @@snapper_version@@ - @@snapper_name_author@@ @@snapper_date_release_fr-fr@@ </div>
+</body>
+</html>
