@@ -1,6 +1,0 @@
-<!ENTITY window.about.snapper "О Snapper">
-<!ENTITY text.snapper "Snapper">
-<!ENTITY text.version "Версия: @@snapper_version@@">
-<!ENTITY text.author "Автор: @@snapper_name_author@@">
-<!ENTITY text.release.date "Дата релиза: @@snapper_date_release_ru-ru@@">
-<!ENTITY button.close "Закрыть">

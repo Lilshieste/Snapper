@@ -1,6 +1,0 @@
-<!ENTITY window.about.snapper "À propos de Snapper">
-<!ENTITY text.snapper "Snapper">
-<!ENTITY text.version "Version : @@snapper_version@@">
-<!ENTITY text.author "Auteur : @@snapper_name_author@@">
-<!ENTITY text.release.date "Publiée le : @@snapper_date_release_fr-fr@@">
-<!ENTITY button.close "Fermer">

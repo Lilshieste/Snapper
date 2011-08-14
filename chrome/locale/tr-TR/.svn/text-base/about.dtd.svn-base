@@ -1,6 +1,0 @@
-<!ENTITY window.about.snapper "Snapper Hakkında">
-<!ENTITY text.snapper "Snapper">
-<!ENTITY text.version "Sürüm: @@snapper_version@@">
-<!ENTITY text.author "Programcı: @@snapper_name_author@@">
-<!ENTITY text.release.date "Sürüm Tarihi: @@snapper_date_release_tr-tr@@">
-<!ENTITY button.close "Kapat">
