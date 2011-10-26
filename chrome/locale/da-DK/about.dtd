@@ -1,6 +1,6 @@
 <!ENTITY window.about.snapper "Om Snapper">
 <!ENTITY text.snapper "Snapper">
-<!ENTITY text.version "Version: @@snapper_version@@">
-<!ENTITY text.author "Udvikler: @@snapper_name_author@@">
-<!ENTITY text.release.date "Udgivet den: @@snapper_date_release_da-dk@@">
+<!ENTITY text.version "Version: 2.1">
+<!ENTITY text.author "Udvikler: Joe Miller">
+<!ENTITY text.release.date "Udgivet den: ">
 <!ENTITY button.close "Luk">

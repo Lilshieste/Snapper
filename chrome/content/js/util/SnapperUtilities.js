@@ -10,7 +10,7 @@
 LSDev.Extensions.SnapperNS.SnapperUtilities = function(){
     const EXTENSION_ID = "{fab752b0-f83e-11da-974d-0800200c9a66}";
     const EXTENSION_TEMP_PATH = "chrome/content/_temp";
-    const CURRENT_VERSION = "@@snapper_version@@";
+    const CURRENT_VERSION = "2.1";
     const OPTIONAL_JRE_VERSION = "1.4";
     
     var preferencesObject = new LSDev.Extensions.SnapperNS.PreferencesMoz();

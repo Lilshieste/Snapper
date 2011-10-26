@@ -1,6 +1,6 @@
 <!ENTITY window.about.snapper "关于 Snapper">
 <!ENTITY text.snapper "Snapper">
-<!ENTITY text.version "版本：@@snapper_version@@">
-<!ENTITY text.author "作者：@@snapper_name_author@@">
+<!ENTITY text.version "版本：2.1">
+<!ENTITY text.author "作者：Joe Miller">
 <!ENTITY text.release.date "发布日期：2009年10月11日">
 <!ENTITY button.close "关闭">

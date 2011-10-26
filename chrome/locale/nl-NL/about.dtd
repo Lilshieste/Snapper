@@ -1,6 +1,6 @@
 <!ENTITY window.about.snapper "Over Snapper">
 <!ENTITY text.snapper "Snapper">
-<!ENTITY text.version "Versie @@snapper_version@@">
-<!ENTITY text.author "Schrijver: @@snapper_name_author@@">
-<!ENTITY text.release.date "Versiedatum: @@snapper_date_release_nl-nl@@">
+<!ENTITY text.version "Versie 2.1">
+<!ENTITY text.author "Schrijver: Joe Miller">
+<!ENTITY text.release.date "Versiedatum: ">
 <!ENTITY button.close "Sluiten">

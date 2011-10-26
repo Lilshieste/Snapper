@@ -1,6 +1,6 @@
 <!ENTITY window.about.snapper "Acerca de Snapper">
 <!ENTITY text.snapper "Snapper">
-<!ENTITY text.version "Versión: @@snapper_version@@">
-<!ENTITY text.author "Autor: @@snapper_name_author@@">
-<!ENTITY text.release.date "Fecha de publicación: @@snapper_date_release_es-es@@">
+<!ENTITY text.version "Versión: 2.1">
+<!ENTITY text.author "Autor: Joe Miller">
+<!ENTITY text.release.date "Fecha de publicación: ">
 <!ENTITY button.close "Cerrar">

@@ -1,6 +1,6 @@
 <!ENTITY window.about.snapper "حول Snapper">
 <!ENTITY text.snapper "Snapper">
-<!ENTITY text.version "الإصدار: @@snapper_version@@">
+<!ENTITY text.version "الإصدار: 2.1">
 <!ENTITY text.author "المصمم: جوي ميلر">
-<!ENTITY text.release.date "@@snapper_date_release_ar-sa@@">
+<!ENTITY text.release.date "">
 <!ENTITY button.close "إغلاق">

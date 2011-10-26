@@ -1,6 +1,6 @@
 <!ENTITY window.about.snapper "Snapper névjegye">
 <!ENTITY text.snapper "Snapper">
-<!ENTITY text.version "Változat: @@snapper_version@@">
-<!ENTITY text.author "Készítő: @@snapper_name_author@@">
-<!ENTITY text.release.date "Kiadás dátuma: @@snapper_date_release_hu-hu@@">
+<!ENTITY text.version "Változat: 2.1">
+<!ENTITY text.author "Készítő: Joe Miller">
+<!ENTITY text.release.date "Kiadás dátuma: ">
 <!ENTITY button.close "Bezárás">
